@@ -1,0 +1,75 @@
+<html>
+<!DOCTYPE html>
+
+  <head>
+    <title>Laundry Online</title>
+  </head>
+
+  <body>
+
+
+
+    <img src="https://bethanyguidetocollege.files.wordpress.com/2013/03/496041_48098881.jpg" alt="mesin_cuci_bg" style="opacity:0.56;"height="1050" width="1570">
+    <h1 style="position:absolute; top:2%; left :10%; font-size:400%;">Hero Laundry</h1>
+    <h2 style="position:absolute; top:15%; left :10%; font-size:170%;">Laundry kita semua</h2>
+
+    <!--Tabel Harga-->
+    <table border="5" style="font-size:200%;; position: absolute;
+   top: 32%; left:10%;">
+      <tr>
+        <th>Jasa</th>
+        <th>Biaya</th>
+      </tr>
+      <tr>
+        <td>Cuci Mamel</td>
+        <td>Rp. 5000/kg</td>
+      </tr>
+      <tr>
+        <td>Cuci Kering</td>
+        <td>Rp. 6000/kg</td>
+      </tr>
+      <tr>
+        <td>Cuci Setrika</td>
+        <td>Rp. 7000/kg</td>
+      </tr>
+      <tr>
+        <td>Setrika</td>
+        <td>Rp. 2000/kg</td>
+      </tr>
+    </table>
+
+    <br>
+    <p style="position:absolute; top:22%; left :10%; font-size:100%;"><b>Jasa Jemput - Antar Laundry untuk wilayah ITS dan sekitarnya</b></p>
+    <a href="https://facebook.com" style="position:absolute; top:65%; left :10%; font-size:100%;"">Kontak Kami</a>
+
+    <!--Form Customer-->
+    <form style="width:300px; position: absolute;
+   top: 30%;left: 37%;">
+      <fieldset>
+        <legend>Formulir Pemesanan</legend>
+        <!--Data Diri Pemesan-->
+        <fieldset>
+          <legend>Data Pemesan</legend>
+          <label for="pemesan_nama">Nama</label>
+          <br><input type=text id="pemesan_nama">
+          <br><label for="pemesan_nomor">HP</label>
+          <br><input type=text id="pemesan_nomor">
+          <br><label for="pemesan_alamat">Alamat</label>
+          <br><textarea cols="100" rows= "7"></textarea>
+        </fieldset>
+        <!--Data Pesanan-->
+        <fieldset>
+          <legend>Data Pesanan</legend>
+          <label>Jasa</label>
+          <br><input type="radio" name="jasa" value="0">Cuci Mamel
+          <input type="radio" name="jasa" value="1">Cuci Kering
+          <input type="radio" name="jasa" value="2">Cuci Setrika
+          <input type="radio" name="jasa" value="3">Setrika
+        </fieldset>
+        <!--Submit-->
+        <br><input type="submit" value="kirim">
+      </fieldset>
+    </form>
+  </body>
+
+</html>
